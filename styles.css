@@ -5,7 +5,10 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: #edeff0;
+  background-color: #edeff0;
+  background-image: url('svgs/background.svg');
+  background-repeat: repeat;
+  background-size: 50px 50px;
 }
 
 #container {
@@ -44,6 +47,25 @@ header nav {
 header nav ul li {
   display: inline-block;
   margin-right: 20px;
+  color: #43AECF;
+  font-weight: bold;
+  font-size: 18px; 
+  transition: .3s ease-out;
+}
+
+header nav ul li img {
+  height: 18px;
+  width: 16px;
+  padding-right: 10px;
+}
+
+header nav ul li:hover {
+  color: #2b738a;
+  cursor: pointer;
+}
+
+header nav ul li:hover img{
+  fill: #2b738a;
 }
 
 main {
