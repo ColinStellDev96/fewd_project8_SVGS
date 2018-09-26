@@ -50,13 +50,12 @@ header nav ul li {
   color: #43AECF;
   font-weight: bold;
   font-size: 18px; 
-  transition: .3s ease-out;
+  transition: .4s ease-out;
 }
 
-header nav ul li img {
-  height: 18px;
-  width: 16px;
-  padding-right: 10px;
+.nav-icon {
+  fill:#39ADD1;
+  transition: .4s ease-out;
 }
 
 header nav ul li:hover {
@@ -64,8 +63,17 @@ header nav ul li:hover {
   cursor: pointer;
 }
 
-header nav ul li:hover img{
+header nav ul li:hover .nav-icon{
   fill: #2b738a;
+}
+
+.mobile-text {
+  color: #EAAA7F;
+}
+
+.logo {
+  height: 120px;
+  width: 140px;
 }
 
 main {
@@ -81,4 +89,19 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+@media (min-width: 300px) {
+  .logo-letters{
+    display: none;
+  }
+}
+
+@media (min-width: 425px) {
+  .mobile-text {
+    display: none;
+  }
+  .logo-letters{
+    display: initial;
+  }
 }
