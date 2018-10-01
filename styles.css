@@ -76,12 +76,62 @@ header nav ul li:hover .nav-icon{
   width: 140px;
 }
 
+.logo-paws {
+  transition: transform .7s ease-in-out;
+}
+
+.logo:hover .logo-paws {
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+}
+
+
 main {
   padding-top: 50px;
 }
 
 main h2 {
   font-size: 28px;
+}
+
+#corgi-layer {
+ display: none;
+}
+
+h3 {
+  margin: 0;
+  color: #b97f5b;
+}
+
+.coat {
+  display: inline-block;
+}
+
+.corgi-color {
+  height: 150px;
+  width: 130px;
+  margin: 0 20px;
+  transition: .5s;
+}
+
+.corgi-color:hover {
+  transform: rotate(-35deg);
+}
+
+.corgi-sable {
+  color: #b97f5b;
+}
+
+.corgi-fawn {
+  color: #e9aa82;
+}
+
+.corgi-red {
+  color: #834b29;
+}
+
+.corgi-stone {
+  color:#52595F;
 }
 
 footer {
