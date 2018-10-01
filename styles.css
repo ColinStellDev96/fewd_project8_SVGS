@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 body {
   margin: 0;
   padding: 0;
@@ -24,6 +26,8 @@ p {
   line-height: 2em;
   text-align: left;
 }
+
+/* NAV STYLES */
 
 a {
   text-decoration: none;
@@ -67,6 +71,8 @@ header nav ul li:hover .nav-icon{
   fill: #2b738a;
 }
 
+/* PAW PRINT LOGO */
+
 .mobile-text {
   color: #EAAA7F;
 }
@@ -76,15 +82,23 @@ header nav ul li:hover .nav-icon{
   width: 140px;
 }
 
+.logo-circle {
+  fill: #BA8058;
+}
+
+.logo-letters {
+  fill: #EAAA7F;
+}
+
 .logo-paws {
-  transition: transform .7s ease-in-out;
+  fill: #F4C6A6;
+  transition: transform .4s ease-in-out;
+  transform-origin: 50% 50%;
 }
 
 .logo:hover .logo-paws {
   transform: scale(1.2);
-  transform-origin: 50% 50%;
 }
-
 
 main {
   padding-top: 50px;
@@ -93,6 +107,8 @@ main {
 main h2 {
   font-size: 28px;
 }
+
+/* COAT COLORS STYLES */
 
 #corgi-layer {
  display: none;
@@ -134,12 +150,26 @@ h3 {
   color:#52595F;
 }
 
+.nose_and_eyes {
+  fill:#2D3339;
+}
+
+.brows {
+  fill:#DA8058;
+}
+
+.white {
+  fill:#FBFEFF;
+}
+
 footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+/* MEDIA QUERIES */
 
 @media (min-width: 300px) {
   .logo-letters{
